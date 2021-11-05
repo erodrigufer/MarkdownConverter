@@ -8,7 +8,8 @@ Only **pandoc**, if pandoc is not present in the system, the script will issue a
 Add MarkdownConverter to your shell's path.
 
 ## Usage
+```
 usage: MarkdownConverter --html | --pdf <input Markdown file name>
 	--html : Convert input Markdown file to HTML
 	--pdf : Convert input Markdown file to pdf
-
+```
