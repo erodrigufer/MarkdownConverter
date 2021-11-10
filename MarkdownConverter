@@ -63,13 +63,13 @@ pandoc -o ${FILE_OUTPUT_NAME} ${FILE_TO_CONVERT} || { echo "Pandoc file conversi
 
 echo "${FILE_OUTPUT_NAME} was successfully created!"
 
-OS=Darwin
+#OS=Darwin
 # Check if OS is Mac OS X (Darwin)
 # uname == Darwin
 # test expression, compare string of command evaluation
 # if test expression is true, then exit with 0
 # iff Mac OS is being used, run 'open' to open the newly created pdf
 # this makes the script portable across UNIX systems
-[ $(uname) = "${OS}" ] && { echo "Open newly created ${OUTPUT_FILE_TYPE} file."; open ${FILE_OUTPUT_NAME}; }
+#[ $(uname) = "${OS}" ] && { echo "Open newly created ${OUTPUT_FILE_TYPE} file."; open ${FILE_OUTPUT_NAME}; }
 
 exit 0
