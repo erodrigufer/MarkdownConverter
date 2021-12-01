@@ -1,5 +1,5 @@
 # markdownConverter
-Shell script to convert Markdown files to either pdf or html files. If the file is being converted to html, then the script will add a **css template** to the html file to make it look similar to the **_GitHub Markdown style_**.
+Shell script to convert Markdown files to either pdf or html files. If the file is being converted to html, then the script will add a **css template** to the html file to make it look similar to the **_GitHub Markdown style_** (how GitHub README.md files look like).
 
 * The output file's name will be the same one as the input file's name but with either the .hmtl or .pdf file extension. 
 
